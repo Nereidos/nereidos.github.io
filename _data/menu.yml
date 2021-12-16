@@ -4,12 +4,12 @@
 entries:
   - title: info
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: Hello my name is Elias.
+      - title: MY Github
+        url: https://github.com/skamandrios
+      - title: "also follow me on Twitter <a href='https://twitter.com/_serELLE'>@_serELLE</a> and Instagram<a href='https://instagram/59_Elias_'>@59_Elias_</a>"
 
-  - title: all posts
+  - title: other stuff
     post_list:
       limit: 5
       show_more: true
