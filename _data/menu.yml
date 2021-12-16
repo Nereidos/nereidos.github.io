@@ -34,5 +34,4 @@ entries:
           - title: example page
             url: about
   - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+   
