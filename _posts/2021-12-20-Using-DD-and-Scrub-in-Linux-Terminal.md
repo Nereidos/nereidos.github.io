@@ -72,6 +72,7 @@ Run this command:
  | custom:       | 1-pass   | custom="str" 16 chr max, C esc like \r, \xFF, \377, \\ |
 
 ### Diffrent OPTIONS
+```
   -v, --version           display scrub version and exit
   -p, --pattern pat       select scrub pattern sequence
   -b, --blocksize size    set I/O buffer size (default 4m)
@@ -86,6 +87,7 @@ Run this command:
   -t, --no-threads        do not compute random data in a parallel thread
   -n, --dry-run           verify file arguments, without writing
   -h, --help              display this help message
+```
 ### Using dod for example
 #### dry-run
 *But first do '''dry-run''' to verify file arguments, without writing:
