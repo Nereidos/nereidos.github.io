@@ -89,7 +89,7 @@ Run this command:
 ### Using dod for example
 
 #### dry-run
-But first do dry-run to verify file arguments, without writing:
+But first do **dry-run** to verify file arguments, without writing:
 ```
  scrub -p dod /dev/sdb -n
 ```
