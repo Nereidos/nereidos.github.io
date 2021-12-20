@@ -9,7 +9,7 @@ category: Linux Guides
 ```
  dd if=<source file name> of=<target file name> [Options]
 ```
-Use lsblk to List Block Device in Linux: [Source](https://www.linoxide.com/linux-lsblk-command)
+Use lsblk to List Block Device in Linux: [Source](https://linoxide.com/lsblk-command-in-linux-list-block-devices/)
  lsblk
 Example for flashing an .img on a SD-Card (use status=progress to see the flashing process):
 ```
