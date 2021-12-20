@@ -1,3 +1,7 @@
+---
+layout: post
+category: Linux Guides
+---
 
 # Upgrade Notice
 > Always update to the latest minor update before updating a major version (for example: if on 21.0.0 first upgrade to 21.0.7 before upgrading to 22.2.3)
