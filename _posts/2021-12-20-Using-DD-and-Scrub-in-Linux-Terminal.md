@@ -53,6 +53,7 @@ Run this command:
  scrub [option] <target>
 
 #### Available patterns are:
+
  | Name          | Pass     | Does                                                   |
  | ------------- |:--------:| ------------------------------------------------------ |
  | nnsa:         | 3-pass   | NNSA NAP-14.1-C                                        |
@@ -91,6 +92,7 @@ Run this command:
   -h, --help              display this help message
 ```
 ### Using dod for example
+
 #### dry-run
 But first do dry-run to verify file arguments, without writing:
 ```
