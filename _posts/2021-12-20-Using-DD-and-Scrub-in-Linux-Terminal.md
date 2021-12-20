@@ -51,8 +51,8 @@ Run this command:
  scrub [option] <target>
 
 #### Available patterns are:
- | Name          | Pass     | Does              |
- |---------------|----------|-------------------|
+ | Name          | Pass     | Does                    |
+ | ------------- |:--------:| -----------------------:|
  | nnsa:         | 3-pass   | NNSA NAP-14.1-C |
  | dod:          | 3-pass   | DoD 5220.22-M |
  | bsi:          | 9-pass   | BSI | 
