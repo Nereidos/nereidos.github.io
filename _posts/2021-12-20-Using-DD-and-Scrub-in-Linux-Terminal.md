@@ -5,11 +5,11 @@ category: Linux Guides
 
 ## Using the DD command in Terminal
 ### Write Image Files
-"The basic use of the dd command is rather easy because it takes just two arguments: if= to specify the input file and of= to specify the output file.[https://linoxide.com/linux-dd-command-create-1gb-file/ Source])
+"The basic use of the dd command is rather easy because it takes just two arguments: if= to specify the input file and of= to specify the output file. [Source](https://linoxide.com/linux-dd-command-create-1gb-file/ Source)
 ```
  dd if=<source file name> of=<target file name> [Options]
 ```
-Use lsblk to List Block Device in Linux: [https://linoxide.com/linux-lsblk-command/ (www.linoxide.com/linux-lsblk-command)]
+Use lsblk to List Block Device in Linux: [Source](www.linoxide.com/linux-lsblk-command)
  lsblk
 Example for flashing an .img on a SD-Card (use status=progress to see the flashing process):
 ```
@@ -112,9 +112,9 @@ Output:
 
 ## Useful Links and Sources
 ### DD
-https://linoxide.com/linux-dd-command-create-1gb-file/ '''''([https://linoxide.com/linux-dd-command-create-1gb-file/ Source])"'''''
-https://www.looklinux.com/how-to-wipe-hard-drive-clean-using-dd-command-in-linux/
-https://linoxide.com/commands-wipe-disk-linux/
+[https://linoxide.com/linux-dd-command-create-1gb-file/](https://linoxide.com/linux-dd-command-create-1gb-file/)
+[https://www.looklinux.com/how-to-wipe-hard-drive-clean-using-dd-command-in-linux/](https://www.looklinux.com/how-to-wipe-hard-drive-clean-using-dd-command-in-linux/)
+[https://linoxide.com/commands-wipe-disk-linux/](https://linoxide.com/commands-wipe-disk-linux/)
 https://linuxhandbook.com/dd-command/
 ### Scrub
 https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/
