@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Linux Guides
+category: Nextcloud Guides
 ---
 
 # Upgrade Notice
