@@ -71,7 +71,7 @@ Run this command:
  | fillzero:     | 1-pass   | Quick Fill with 0x00                                   |
  | fillff:       | 1-pass   | Quick Fill with 0xff                                   |
  | verify:       | 1-pass   | Quick Fill with 0x00 and verify                        |
- | custom:       | 1-pass   | custom="str" 16 chr max, C esc like \r, \xFF, \377, \\ |
+ | custom:       | 1-pass   | custom="str" 16 chr max, C esc like \r, \xFF, \377,\\  |
 
 ### Diffrent OPTIONS
 ```
@@ -120,6 +120,6 @@ Output:
 *https://linoxide.com/commands-wipe-disk-linux/
 *https://linuxhandbook.com/dd-command/
 ### Scrub
-*https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/
+**https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/
 ### Lsblk
-*https://linoxide.com/linux-lsblk-command/
+**https://linoxide.com/linux-lsblk-command/
