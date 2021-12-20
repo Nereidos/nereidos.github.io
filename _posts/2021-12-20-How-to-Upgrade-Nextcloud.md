@@ -8,46 +8,46 @@
 # Upgrade 
 - Enable maintance mode
 ```
- sudo -u <www-data> php /var/www/<nextcloud>/occ maintenance:mode --on
+sudo -u <www-data> php /var/www/<nextcloud>/occ maintenance:mode --on
 ```
 - Rename Oldversion
 ```
- sudo mv /var/www/<nextcloud> /var/www/<nextcloud>_oldver
+sudo mv /var/www/<nextcloud> /var/www/<nextcloud>_oldver
 ```
--Download the new Nextcloud Version [from HERE](https://nextcloud.com/changelog/)
+- Download the new Nextcloud Version [from HERE](https://nextcloud.com/changelog/)
 ```
- wget https://download.nextcloud.com/server/releases/nextcloud-<latest>.tar.bz2
+wget https://download.nextcloud.com/server/releases/nextcloud-<latest>.tar.bz2
 ```
--Extract (Unzip) Tar Bz2 File
+- Extract (Unzip) Tar Bz2 File
 ```
- tar -xvf nextcloud-<VERSION>.tar.bz2
+tar -xvf nextcloud-<VERSION>.tar.bz2
 ```
 - Rename (same name as the old version) and move the new version
 ```
- sudo mv <nextcloud>/ /var/www/
+sudo mv <nextcloud>/ /var/www/
 ```
 - Copy the config.php file from the Old to the new version
 ```
- sudo cp -av /var/www/<nextcloud>_oldver/config/config.php /var/www/<nextcloud>/config/
+sudo cp -av /var/www/<nextcloud>_oldver/config/config.php /var/www/<nextcloud>/config/
 ```
 - Grand rights
 ```
- sudo chown -R <www-data>:<www-data> /var/www/<nextcloud>
+sudo chown -R <www-data>:<www-data> /var/www/<nextcloud>
 ```
 - Check Status before upgrade
 ```
- sudo -u <www-data> php /var/www/<nextcloud>/occ status
+sudo -u <www-data> php /var/www/<nextcloud>/occ status
 ```
--Run OCC upgrade script
+- Run OCC upgrade script
 ```
- sudo -u <www-data> php /var/www/<nextcloud>/occ upgrade
+sudo -u <www-data> php /var/www/<nextcloud>/occ upgrade
 ```
 - Check app:list
 ```
- sudo -u www-data php /var/www/nextcloud/occ app:list
+sudo -u www-data php /var/www/nextcloud/occ app:list
 ```
 - Disable maintenance:mode
 ```
- sudo -u <www-data> php /var/www/<nextcloud>/occ maintenance:mode --off
+sudo -u <www-data> php /var/www/<nextcloud>/occ maintenance:mode --off
 ```
 - Check for error's in Nextcloud Web Overview
