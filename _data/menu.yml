@@ -16,10 +16,3 @@ entries:
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
-
-  - title: posts by category
-    post_list:
-      category: Nextcloud Guides
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: how-to-upgrade-nextcloud.html
