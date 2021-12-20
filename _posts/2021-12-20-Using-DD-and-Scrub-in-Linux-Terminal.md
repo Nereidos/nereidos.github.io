@@ -93,7 +93,7 @@ But first do dry-run to verify file arguments, without writing:
 ```
  scrub -p dod /dev/sdb -n
 ```
- #### Execute
+#### Execute
 then use:
  scrub -p dod /dev/sdb
 Output:
@@ -107,8 +107,8 @@ Output:
  scrub: verify  |................................................|
 ```
 ## Create Partition and Format the Filesystem==
-**After you wiped your disk, you probably need to create a Partition and a proper Filesystem.
-**Here you will find everything you need to proceed: [[Create Partition and Format the Filesystem]]
+After you wiped your disk, you probably need to create a Partition and a proper Filesystem.
+Here you will find everything you need to proceed: [[Create Partition and Format the Filesystem]]
 
 ## Useful Links and Sources
 ### DD
