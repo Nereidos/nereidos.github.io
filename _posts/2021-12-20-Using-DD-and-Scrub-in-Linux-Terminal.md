@@ -96,6 +96,7 @@ Run this command:
 then use:
  scrub -p dod /dev/sdb
 Output:
+```
  scrub: using DoD 5220.22-M patterns
  scrub: please verify that device size below is correct!
  scrub: scrubbing /dev/sdb 250047627776 bytes (~232GB)
@@ -103,7 +104,7 @@ Output:
  scrub: 0x00    |................................................|
  scrub: 0xff    |................................................|
  scrub: verify  |................................................|
-
+```
 ## Create Partition and Format the Filesystem==
 *After you wiped your disk, you probably need to create a Partition and a proper Filesystem.
 *Here you will find everything you need to proceed: [[Create Partition and Format the Filesystem]]
