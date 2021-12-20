@@ -30,7 +30,8 @@ Wipe Master Boot Record (MBR)
  dd if=/dev/zero of=/dev/hdX bs=446 count=1
 ```
 If you messed up your master boot record (MBR) you can wipe it using this command.
-###[Backing up a disk partition](#Backing up a disk partition)
+
+### Backing up a disk partition
 Let’s say that our system has a separate partition for our home directory at ‘sda2’ and we want to back it up to a file named ‘home_backup.img’ in our current directory. Create an ‘.img’ (raw disk image) file:
 ```
 dd if=/dev/sda2 of=home_backup.img
@@ -50,23 +51,23 @@ Run this command:
  scrub [option] <target>
 
 #### Available patterns are:
-*nnsa:          3-pass   NNSA NAP-14.1-C
-*dod:           3-pass   DoD 5220.22-M
-*bsi:           9-pass   BSI
-*usarmy:        3-pass   US Army AR380-19
-*random:        1-pass   One Random Pass
-*random2:       2-pass   Two Random Passes
-*schneier:      7-pass   Bruce Schneier Algorithm
-*pfitzner7:     7-pass   Roy Pfitzner 7-random-pass method
-*pfitzner33:   33-pass   Roy Pfitzner 33-random-pass method
-*gutmann:      35-pass   Gutmann
-*fastold:       4-pass   pre v1.7 scrub (skip random)
-*old:           5-pass   pre v1.7 scrub
-*dirent:        6-pass   dirent
-*fillzero:      1-pass   Quick Fill with 0x00
-*fillff:        1-pass   Quick Fill with 0xff
-*verify:        1-pass   Quick Fill with 0x00 and verify
-*custom:        1-pass   custom="str" 16 chr max, C esc like \r, \xFF, \377, \\
+nnsa:          3-pass   NNSA NAP-14.1-C
+dod:           3-pass   DoD 5220.22-M
+bsi:           9-pass   BSI
+usarmy:        3-pass   US Army AR380-19
+random:        1-pass   One Random Pass
+random2:       2-pass   Two Random Passes
+schneier:      7-pass   Bruce Schneier Algorithm
+pfitzner7:     7-pass   Roy Pfitzner 7-random-pass method
+pfitzner33:   33-pass   Roy Pfitzner 33-random-pass method
+gutmann:      35-pass   Gutmann
+fastold:       4-pass   pre v1.7 scrub (skip random)
+old:           5-pass   pre v1.7 scrub
+dirent:        6-pass   dirent
+fillzero:      1-pass   Quick Fill with 0x00
+fillff:        1-pass   Quick Fill with 0xff
+verify:        1-pass   Quick Fill with 0x00 and verify
+custom:        1-pass   custom="str" 16 chr max, C esc like \r, \xFF, \377, \\
 
 ### Diffrent OPTIONS
   -v, --version           display scrub version and exit
