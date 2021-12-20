@@ -3,7 +3,7 @@ layout: post
 category: Linux Guides
 ---
 
-## [DD](#DD)
+## Using the DD command in Terminal
 ### Write Image Files
 "The basic use of the dd command is rather easy because it takes just two arguments: if= to specify the input file and of= to specify the output file."'''''([https://linoxide.com/linux-dd-command-create-1gb-file/ Source])"'''''
 ```
