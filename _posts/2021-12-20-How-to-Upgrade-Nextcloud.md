@@ -16,7 +16,7 @@
 ```
 -Download the new Nextcloud Version [from HERE](https://nextcloud.com/changelog/)
 ```
- wget <nowiki>https://download.nextcloud.com/server/releases/nextcloud-<latest>.tar.bz2</nowiki>
+ wget https://download.nextcloud.com/server/releases/nextcloud-<latest>.tar.bz2
 ```
 -Extract (Unzip) Tar Bz2 File
 ```
