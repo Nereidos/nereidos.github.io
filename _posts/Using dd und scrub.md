@@ -7,7 +7,7 @@ category: Linux Guides
 - [Table of contents](#table-of-contents)
 - [Write Image Files](#Write Image Files)
 ## [DD](#DD)
-### Write Image Files
+### [Write Image Files](#Write Image Files)
 "The basic use of the dd command is rather easy because it takes just two arguments: if= to specify the input file and of= to specify the output file."'''''([https://linoxide.com/linux-dd-command-create-1gb-file/ Source])"'''''
 ```
  dd if=<source file name> of=<target file name> [Options]
