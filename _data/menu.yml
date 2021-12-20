@@ -4,6 +4,8 @@
 entries:
   - title: info
     entries:
+      - title: About 
+        url: about
       - title: Hello my name is Elias.
       - title: MY Github
         url: https://github.com/skamandrios
@@ -28,5 +30,3 @@ entries:
       - title: with subitems
         entries:
           - title: with subsubitems
-          - title: example page
-            url: about
