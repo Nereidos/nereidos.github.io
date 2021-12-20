@@ -3,40 +3,56 @@ layout: post
 category: Linux Guides
 ---
 
-__Toc__
-
-==DD==
-===Write Image Files===
+## Table of contents
+- [Table of contents](#table-of-contents)
+- [Write Image Files](#Write Image Files)
+## [DD](#DD)
+### [Write Image Files](#Write Image Files)
 "The basic use of the dd command is rather easy because it takes just two arguments: if= to specify the input file and of= to specify the output file."'''''([https://linoxide.com/linux-dd-command-create-1gb-file/ Source])"'''''
+```
  dd if=<source file name> of=<target file name> [Options]
-
+```
 Use lsblk to List Block Device in Linux: [https://linoxide.com/linux-lsblk-command/ (www.linoxide.com/linux-lsblk-command)]
  lsblk
 Example for flashing an''' .img''' on a SD-Card (use status=progress to see the flashing process):
+```
  dd if=/opt/local/Downloads/file.img of=/dev/sdb status=progress
-===Erase Disk with DD===
+```
+### [Erase Disk with DD](#Erase Disk with DD)
 '''Wipe Entire Disk'''
 Filling the disk with all zeros:
+```
  dd if=/dev/zero of=/dev/sdX bs=1M
+```
 Filling the disk with all random data:
+```
  dd if=/dev/urandom of=/dev/sdX bs=1M
+```
 Wipe Master Boot Record (MBR)
+```
  dd if=/dev/zero of=/dev/hdX bs=446 count=1
+```
 If you messed up your master boot record (MBR) you can wipe it using this command.
-===Backing up a disk partition===
+###[Backing up a disk partition](#Backing up a disk partition)
 Let’s say that our system has a separate partition for our home directory at ‘sda2’ and we want to back it up to a file named ‘home_backup.img’ in our current directory. Create an ‘.img’ (raw disk image) file:
- dd if=/dev/sda2 of=home_backup.img
-===Clone disks===
+```
+dd if=/dev/sda2 of=home_backup.img
+```
+###[Clone disks](#Clone disks)
 It will copy the entire contents of the drive, not just the data. Make sure thers enough space on your output file.Re-partitioning the drive to the exact size currently filled by data can be very useful.
 identify your disks:
+```
  sudo fdisk -l 
+``` 
 Run this command:
+```
  sudo dd if=/dev/sda of=/dev/sdb
-==Scrub==
-===Erase Disk===
+```
+##[Scrub](#Scrub)
+###[Erase Disks](#Erase Disks)
  scrub [option] <target>
 
-====Available patterns are====
+###[Available patterns are](#Available patterns are)
 *nnsa:          3-pass   NNSA NAP-14.1-C
 *dod:           3-pass   DoD 5220.22-M
 *bsi:           9-pass   BSI
