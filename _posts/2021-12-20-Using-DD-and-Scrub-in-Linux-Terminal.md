@@ -5,18 +5,18 @@ category: Linux Guides
 
 ## Using the DD command in Terminal
 ### Write Image Files
-"The basic use of the dd command is rather easy because it takes just two arguments: if= to specify the input file and of= to specify the output file."'''''([https://linoxide.com/linux-dd-command-create-1gb-file/ Source])"'''''
+"The basic use of the dd command is rather easy because it takes just two arguments: if= to specify the input file and of= to specify the output file.[https://linoxide.com/linux-dd-command-create-1gb-file/ Source])
 ```
  dd if=<source file name> of=<target file name> [Options]
 ```
 Use lsblk to List Block Device in Linux: [https://linoxide.com/linux-lsblk-command/ (www.linoxide.com/linux-lsblk-command)]
  lsblk
-Example for flashing an''' .img''' on a SD-Card (use status=progress to see the flashing process):
+Example for flashing an .img on a SD-Card (use status=progress to see the flashing process):
 ```
  dd if=/opt/local/Downloads/file.img of=/dev/sdb status=progress
 ```
 ### Erase Disk with DD
-'''Wipe Entire Disk'''
+Wipe Entire Disk
 Filling the disk with all zeros:
 ```
  dd if=/dev/zero of=/dev/sdX bs=1M
@@ -110,16 +110,16 @@ Output:
  scrub: verify  |................................................|
 ```
 ## Create Partition and Format the Filesystem==
-*After you wiped your disk, you probably need to create a Partition and a proper Filesystem.
-*Here you will find everything you need to proceed: [[Create Partition and Format the Filesystem]]
+**After you wiped your disk, you probably need to create a Partition and a proper Filesystem.
+**Here you will find everything you need to proceed: [[Create Partition and Format the Filesystem]]
 
 ## Useful Links and Sources
 ### DD
-*https://linoxide.com/linux-dd-command-create-1gb-file/ '''''([https://linoxide.com/linux-dd-command-create-1gb-file/ Source])"'''''
-*https://www.looklinux.com/how-to-wipe-hard-drive-clean-using-dd-command-in-linux/
-*https://linoxide.com/commands-wipe-disk-linux/
-*https://linuxhandbook.com/dd-command/
+https://linoxide.com/linux-dd-command-create-1gb-file/ '''''([https://linoxide.com/linux-dd-command-create-1gb-file/ Source])"'''''
+https://www.looklinux.com/how-to-wipe-hard-drive-clean-using-dd-command-in-linux/
+https://linoxide.com/commands-wipe-disk-linux/
+https://linuxhandbook.com/dd-command/
 ### Scrub
-**https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/
+https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/
 ### Lsblk
-**https://linoxide.com/linux-lsblk-command/
+https://linoxide.com/linux-lsblk-command/
