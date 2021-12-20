@@ -46,6 +46,8 @@ Run this command:
 ```
  sudo dd if=/dev/sda of=/dev/sdb
 ```
+---
+
 ## Scrub
 ### Erase Disks
  scrub [option] <target>
