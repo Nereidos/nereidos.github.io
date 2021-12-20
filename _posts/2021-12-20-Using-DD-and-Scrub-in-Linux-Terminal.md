@@ -7,27 +7,27 @@ category: Linux Guides
 ### Write Image Files
 "The basic use of the dd command is rather easy because it takes just two arguments: if= to specify the input file and of= to specify the output file." [Source](https://linoxide.com/linux-dd-command-create-1gb-file/)
 ```
- dd if=<source file name> of=<target file name> [Options]
+dd if=<source file name> of=<target file name> [Options]
 ```
 Use lsblk to List Block Device in Linux: [Source](https://linoxide.com/lsblk-command-in-linux-list-block-devices/)
- lsblk
+lsblk
 Example for flashing an .img on a SD-Card (use status=progress to see the flashing process):
 ```
- dd if=/opt/local/Downloads/file.img of=/dev/sdb status=progress
+dd if=/opt/local/Downloads/file.img of=/dev/sdb status=progress
 ```
 ### Erase Disk with DD
 Wipe Entire Disk
 Filling the disk with all zeros:
 ```
- dd if=/dev/zero of=/dev/sdX bs=1M
+dd if=/dev/zero of=/dev/sdX bs=1M
 ```
 Filling the disk with all random data:
 ```
- dd if=/dev/urandom of=/dev/sdX bs=1M
+dd if=/dev/urandom of=/dev/sdX bs=1M
 ```
 Wipe Master Boot Record (MBR)
 ```
- dd if=/dev/zero of=/dev/hdX bs=446 count=1
+dd if=/dev/zero of=/dev/hdX bs=446 count=1
 ```
 If you messed up your master boot record (MBR) you can wipe it using this command.
 
@@ -40,11 +40,11 @@ dd if=/dev/sda2 of=home_backup.img
 It will copy the entire contents of the drive, not just the data. Make sure thers enough space on your output file.Re-partitioning the drive to the exact size currently filled by data can be very useful.
 identify your disks:
 ```
- sudo fdisk -l 
+sudo fdisk -l 
 ``` 
 Run this command:
 ```
- sudo dd if=/dev/sda of=/dev/sdb
+sudo dd if=/dev/sda of=/dev/sdb
 ```
 ---
 
@@ -91,11 +91,11 @@ Run this command:
 #### dry-run
 But first do **dry-run** to verify file arguments, without writing:
 ```
- scrub -p dod /dev/sdb -n
+scrub -p dod /dev/sdb -n
 ```
 #### Execute
 then use:
- scrub -p dod /dev/sdb
+scrub -p dod /dev/sdb
 Output:
 ```
  scrub: using DoD 5220.22-M patterns
