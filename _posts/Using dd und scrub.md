@@ -18,7 +18,7 @@ Example for flashing an''' .img''' on a SD-Card (use status=progress to see the 
 ```
  dd if=/opt/local/Downloads/file.img of=/dev/sdb status=progress
 ```
-### [Erase Disk with DD](#Erase Disk with DD)
+### Erase Disk with DD
 '''Wipe Entire Disk'''
 Filling the disk with all zeros:
 ```
@@ -38,7 +38,7 @@ Letâ€™s say that our system has a separate partition for our home directory at â
 ```
 dd if=/dev/sda2 of=home_backup.img
 ```
-###[Clone disks](#Clone disks)
+### Clone disks
 It will copy the entire contents of the drive, not just the data. Make sure thers enough space on your output file.Re-partitioning the drive to the exact size currently filled by data can be very useful.
 identify your disks:
 ```
@@ -48,11 +48,11 @@ Run this command:
 ```
  sudo dd if=/dev/sda of=/dev/sdb
 ```
-##[Scrub](#Scrub)
-###[Erase Disks](#Erase Disks)
+## Scrub
+### Erase Disks
  scrub [option] <target>
 
-###[Available patterns are](#Available patterns are)
+#### Available patterns are:
 *nnsa:          3-pass   NNSA NAP-14.1-C
 *dod:           3-pass   DoD 5220.22-M
 *bsi:           9-pass   BSI
@@ -71,7 +71,7 @@ Run this command:
 *verify:        1-pass   Quick Fill with 0x00 and verify
 *custom:        1-pass   custom="str" 16 chr max, C esc like \r, \xFF, \377, \\
 
-====Diffrent OPTIONS====  
+### Diffrent OPTIONS
   -v, --version           display scrub version and exit
   -p, --pattern pat       select scrub pattern sequence
   -b, --blocksize size    set I/O buffer size (default 4m)
@@ -86,11 +86,11 @@ Run this command:
   -t, --no-threads        do not compute random data in a parallel thread
   -n, --dry-run           verify file arguments, without writing
   -h, --help              display this help message
-====Using dod for example====
-=====Dry-run=====
+### Using dod for example
+#### dry-run
 *But first do '''dry-run''' to verify file arguments, without writing:
  scrub -p dod /dev/sdb -n
-=====Execute=====
+#### Execute
 then use:
  scrub -p dod /dev/sdb
 Output:
@@ -102,17 +102,17 @@ Output:
  scrub: 0xff    |................................................|
  scrub: verify  |................................................|
 
-==Create Partition and Format the Filesystem==
+## Create Partition and Format the Filesystem==
 *After you wiped your disk, you probably need to create a Partition and a proper Filesystem.
 *Here you will find everything you need to proceed: [[Create Partition and Format the Filesystem]]
 
-==Useful Links and Sources==
-==='''DD'''===
+## Useful Links and Sources
+### DD
 *https://linoxide.com/linux-dd-command-create-1gb-file/ '''''([https://linoxide.com/linux-dd-command-create-1gb-file/ Source])"'''''
 *https://www.looklinux.com/how-to-wipe-hard-drive-clean-using-dd-command-in-linux/
 *https://linoxide.com/commands-wipe-disk-linux/
 *https://linuxhandbook.com/dd-command/
-==='''Scrub'''===
+### Scrub
 *https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/
-==='''Lsblk'''===
+### Lsblk
 *https://linoxide.com/linux-lsblk-command/
