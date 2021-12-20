@@ -14,7 +14,7 @@
 ```
  sudo mv /var/www/<nextcloud> /var/www/<nextcloud>_oldver
 ```
--Download the new Nextcloud Version (from [https://nextcloud.com/install/#instructions-server HERE])
+-Download the new Nextcloud Version [from HERE](https://nextcloud.com/changelog/)
 ```
  wget <nowiki>https://download.nextcloud.com/server/releases/nextcloud-<latest>.tar.bz2</nowiki>
 ```
