@@ -53,7 +53,7 @@ Run this command:
  scrub [option] <target>
 
 #### Available patterns are:
-
+```
  | Name          | Pass     | Does                                                   |
  | ------------- |:--------:| ------------------------------------------------------ |
  | nnsa:         | 3-pass   | NNSA NAP-14.1-C                                        |
@@ -73,7 +73,7 @@ Run this command:
  | fillff:       | 1-pass   | Quick Fill with 0xff                                   |
  | verify:       | 1-pass   | Quick Fill with 0x00 and verify                        |
  | custom:       | 1-pass   | custom="str" 16 chr max, C esc like \r, \xFF, \377,\\  |
-
+```
 ### Diffrent OPTIONS
 ```
   -v, --version           display scrub version and exit
