@@ -11,10 +11,10 @@ MIN HOUR DOM MON DOW CMD
 ```
 
 ## Crontab Fields and Allowed Ranges
-| Field |	Description  | Allowed  Value              |
-| ----- |:------------:|:--------------------------- |
+| Field | Description  | Allowed  Value              |
+| ----- | ------------ | --------------------------- |
 | MIN	  | Minute field | 0 to 59                     |
-| HOUR  | Hour field	 | 0 to 23                     |
+| HOUR  | Hour field	  | 0 to 23                     |
 | DOM	  | Day of Month | 1-12                        |
 | MON	  | Month field  | 1-12                        |
 | DOW	  | Day Of Week  | 0-6                         |
@@ -23,12 +23,12 @@ MIN HOUR DOM MON DOW CMD
 ## Special Keywords
 Cron special keywords and its meaning
 
-| Keyword	| Equivalent
+| Keyword | Equivalent      |
 | ------- | --------------- |
-| @yearly	| 0 0 1 1 *       |
+| @yearly | 0 0 1 1 *       |
 | @daily  |	0 0 * * *       |
-| @hourly	| 0 * * * *       |
-| @reboot	| Run at startup. |
+| @hourly | 0 * * * *       |
+| @reboot | Run at startup. |
 
 ## Basic Commands
 ```
