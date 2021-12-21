@@ -9,10 +9,11 @@ description: > # description of the site (multiple lines allowed)
 permalink: /:slug.html
 
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
- goat_counter: "5kow" # put your GoatCounter name if you want to use GoatCounter analytics
+# goat_counter: "5kow" # put your GoatCounter name if you want to use GoatCounter analytics
 # https://5kow.goatcounter.com/count
  
-remote_theme: riggraz/no-style-please # theme: no-style-please / riggraz/no-style-please
+remote_theme: riggraz/no-style-please 
+ # theme: no-style-please / riggraz/no-style-please
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
@@ -21,7 +22,7 @@ theme_config:
   show_description: false # show blog description in home page
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 
 sass:
   style: :compressed
