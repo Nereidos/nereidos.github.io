@@ -11,10 +11,11 @@ MIN HOUR DOM MON DOW CMD
 ```
 
 ## Crontab Fields and Allowed Ranges
+
 | Field | Description  | Allowed  Value              |
 | ----- | ------------ | --------------------------- |
 | MIN	  | Minute field | 0 to 59                     |
-| HOUR  | Hour field	  | 0 to 23                     |
+| HOUR  | Hour field	 | 0 to 23                     |
 | DOM	  | Day of Month | 1-12                        |
 | MON	  | Month field  | 1-12                        |
 | DOW	  | Day Of Week  | 0-6                         |
@@ -33,10 +34,10 @@ Cron special keywords and its meaning
 ## Basic Commands
 ```
    	crontab [ -u user ] [ -i ] { -e | -l | -r }
-      	-e	(edit crontab entries)
-      	-l	(view crontab entries)
-      	-r	(delete user's crontab)
-      	-i	(prompt before deleting user's crontab)
+  	-e	(edit crontab entries)
+   	-l	(view crontab entries)
+   	-r	(delete user's crontab)
+   	-i	(prompt before deleting user's crontab)
 ```
 ### Examples
 - run a backup script
