@@ -23,6 +23,5 @@ entries:
     post_list:
       category: Nextcloud Guides
       show_more: true
-  
   - title: rss
      url: feed.xml
