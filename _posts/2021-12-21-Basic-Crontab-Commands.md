@@ -2,8 +2,8 @@
 layout: post
 category: Linux Guides
 ---
-NAME 
-crontab - Schedules commands execution at Specified time or time interval. [Source](https://www.tutorialspoint.com/unix_commands/crontab.htm)
+- NAME:
+  crontab - Schedules commands execution at Specified time or time interval. [Source](https://www.tutorialspoint.com/unix_commands/crontab.htm)
 
 ## Linux Crontab Format
 ```
