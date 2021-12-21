@@ -8,7 +8,6 @@ Here you will find a selection of websites that I think are worth seeing, but it
 -
 
 ## Table of contents
-- [Table of contents](#Table of contents)
 - [Privacy](#Privacy)
 
 ## [Privacy](#Privacy)
