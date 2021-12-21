@@ -13,7 +13,7 @@ MIN HOUR DOM MON DOW CMD
 ## Crontab Fields and Allowed Ranges
 
 | Field | Description  | Allowed  Value              |
-| ----- | ------------ | --------------------------- |
+|-------|--------------|-----------------------------|
 | MIN	  | Minute field | 0 to 59                     |
 | HOUR  | Hour field	 | 0 to 23                     |
 | DOM	  | Day of Month | 1-12                        |
