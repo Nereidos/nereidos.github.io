@@ -10,7 +10,7 @@ title: Links
 - [Linux and Open Source](#Linux and Open Source)
 ## [Privacy](#Privacy)
 - [Privacy Tools](https://www.privacytools.io/)
-- [Have I Been Pwned?](https://haveibeenpwned.com/)
+- [Have I Been Pwned?](https://haveibeenpwned.com/) Check if your email or phone is in a data breach.
 
 ## [Linux and Open Source](#Linux and Open Source)
 - [It's FOSS](https://itsfoss.com/) is an award-winning web-portal that focuses on Open Source in general and Linux in particular.
