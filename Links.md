@@ -9,5 +9,5 @@ layout: default
 - [Privacy](#Privacy)
 
 ## [Privacy](#Privacy)
-- [https://www.privacytools.io/](Privacy Tools)
+- [Privacy Tools](https://www.privacytools.io/)
 - 
