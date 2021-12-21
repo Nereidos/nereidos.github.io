@@ -21,3 +21,6 @@ entries:
     post_list:
       category: Nextcloud Guides
       show_more: true
+  - title: Links
+    show_more_text: see Links...
+    show_more_url: Links-html
