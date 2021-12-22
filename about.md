@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-> Wellcome! This is my personal website.
+> Wellcome! Bellow you will f
 
 - My name is Elias
 - You will find me on Twitter <a href='https://twitter.com/_serELLE'> @_serELLE</a>,
