@@ -111,12 +111,12 @@ After you wiped your disk, you probably need to create a Partition and a proper 
 Here you will find everything you need to proceed: [[Create Partition and Format the Filesystem]]
 
 ## Useful Links and Sources
-### DD
+###DD
 - [https://linoxide.com/linux-dd-command-create-1gb-file/](https://linoxide.com/linux-dd-command-create-1gb-file/)
 - [https://www.looklinux.com/how-to-wipe-hard-drive-clean-using-dd-command-in-linux/](https://www.looklinux.com/how-to-wipe-hard-drive-clean-using-dd-command-in-linux/)
 - [https://linoxide.com/commands-wipe-disk-linux/](https://linoxide.com/commands-wipe-disk-linux/)
 - [https://linuxhandbook.com/dd-command/](https://linuxhandbook.com/dd-command/)
-### Scrub
+###Scrub
 - [https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/](https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/)
-### Lsblk
+###Lsblk
 - [https://linoxide.com/lsblk-command-in-linux-list-block-devices/](https://linoxide.com/lsblk-command-in-linux-list-block-devices/)
