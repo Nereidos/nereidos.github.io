@@ -74,24 +74,24 @@ sudo dd if=/dev/sda of=/dev/sdb
 | custom       | 1-pass   | custom="str" 16 chr max, C esc like \r, \xFF, \377,\\  |
 
 ### Diffrent OPTIONS
-```
-  -v, --version           display scrub version and exit
-  -p, --pattern pat       select scrub pattern sequence
-  -b, --blocksize size    set I/O buffer size (default 4m)
-  -s, --device-size size  set device size manually
-  -X, --freespace dir     create dir+files, fill until ENOSPC, then scrub
-  -D, --dirent newname    after scrubbing file, scrub dir entry, rename
-  -f, --force             scrub despite signature from previous scrub
-  -S, --no-signature      do not write scrub signature after scrub
-  -r, --remove            remove file after scrub
-  -L, --no-link           do not scrub link target
-  -R, --no-hwrand         do not use a hardware random number generator
-  -t, --no-threads        do not compute random data in a parallel thread
-  -n, --dry-run           verify file arguments, without writing
-  -h, --help              display this help message
-```
-### Using dod for example
 
+|------------------------|---------------------------------------------------|
+| -v, --version          | display scrub version and exit                    |
+| -p, --pattern pat      | select scrub pattern sequence                     |
+| -b, --blocksize size   | set I/O buffer size (default 4m)                  |
+| -s, --device-size size | set device size manually                          |
+| -X, --freespace dir    | create dir+files, fill until ENOSPC, then scrub   |
+| -D, --dirent newname   | after scrubbing file, scrub dir entry, rename     |
+| -f, --force            | scrub despite signature from previous scrub       |
+| -S, --no-signature     | do not write scrub signature after scrub          |
+| -r, --remove           | remove file after scrub                           |
+| -L, --no-link          | do not scrub link target                          |
+| -R, --no-hwrand        | do not use a hardware random number generator     |
+| -t, --no-threads       | do not compute random data in a parallel thread   |
+| -n, --dry-run          | verify file arguments, without writing            |
+| -h, --help             | display this help message                         |
+ 
+### Using dod for example
 #### dry-run
 But first do **dry-run** to verify file arguments, without writing:
 ```
