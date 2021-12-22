@@ -70,6 +70,7 @@ Now a table:
 | zebra stripes | are neat      |    $1 |
 
 ## Images
+![bild](/Skamandrios/Skamandrios.github.io/assets/img/test.jpg){:.ioda}
 
 ![theme logo](https://raw.githubusercontent.com/riggraz/no-style-please/master/logo.png){:.ioda}
 
