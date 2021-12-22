@@ -74,7 +74,7 @@ sudo dd if=/dev/sda of=/dev/sdb
 | custom       | 1-pass   | custom="str" 16 chr max, C esc like \r, \xFF, \377,\\  |
 
 ### Diffrent OPTIONS
-
+|  options               | Does                                              |
 |------------------------|---------------------------------------------------|
 | -v, --version          | display scrub version and exit                    |
 | -p, --pattern pat      | select scrub pattern sequence                     |
