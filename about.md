@@ -13,7 +13,7 @@ permalink: /about
 - the theme I am using is: no style, please! [https://github.com/riggraz/no-style-please](https://github.com/riggraz/no-style-please)
 
 
-![bild](../assets/img/testlogo.jpg){:.ioda}
+![bild](../assets/img/testlogo.png){:.ioda}
 
 ---
 {: data-content="Elias"}
