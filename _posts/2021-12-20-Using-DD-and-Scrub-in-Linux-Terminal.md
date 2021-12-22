@@ -53,6 +53,7 @@ sudo dd if=/dev/sda of=/dev/sdb
  scrub [option] <target>
 
 #### Available patterns are:
+
 | Name         | Pass     | Does                                                   |
 |--------------|----------|--------------------------------------------------------|
 | nnsa         | 3-pass   | NNSA NAP-14.1-C                                        |
@@ -74,6 +75,7 @@ sudo dd if=/dev/sda of=/dev/sdb
 | custom       | 1-pass   | custom="str" 16 chr max, C esc like \r, \xFF, \377,\\  |
 
 ### Diffrent OPTIONS
+
 |  Options               | Does                                              |
 |------------------------|---------------------------------------------------|
 | -v, --version          | display scrub version and exit                    |
@@ -90,7 +92,7 @@ sudo dd if=/dev/sda of=/dev/sdb
 | -t, --no-threads       | do not compute random data in a parallel thread   |
 | -n, --dry-run          | verify file arguments, without writing            |
 | -h, --help             | display this help message                         |
- 
+
 ### Using dod for example
 #### dry-run
 But first do **dry-run** to verify file arguments, without writing:
