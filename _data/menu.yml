@@ -8,6 +8,8 @@ entries:
         url: links 
       - title: MY Github
         url: https://github.com/skamandrios
+      - title: My Photo Gallery
+        url: gallery
 
   - title: latest guides
     post_list:
