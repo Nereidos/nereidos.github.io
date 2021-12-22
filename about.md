@@ -4,6 +4,10 @@ title: About
 permalink: /about
 ---
 
-> Hello my name is Elias
+> Wellcome! This is my personal website.
 
-- This is my website. Follow me on Twitter <a href='https://twitter.com/_serELLE'>@_serELLE</a> and Instagram<a href='https://instagram.com/59_Elias_'> @59_Elias_</a>
+- My name is Elias
+- My Twitter <a href='https://twitter.com/_serELLE'>@_serELLE</a> 
+- My Instagram<a href='https://instagram.com/59_Elias_'> @59_Elias_</a>
+- and my Github<a href='https://github.com/skamandrios'>@skamandrios</a>
+- used theme: no style, please! https://github.com/riggraz/no-style-please
