@@ -12,5 +12,5 @@ permalink: /about
 - and on Github <a href='https://github.com/skamandrios'> @skamandrios</a>
 - the theme I am using is: no style, please! [https://github.com/riggraz/no-style-please](https://github.com/riggraz/no-style-please)
 
-
+---
 {: data-content="Elias"}
