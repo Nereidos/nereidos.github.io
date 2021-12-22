@@ -72,7 +72,7 @@ Now a table:
 | zebra stripes | are neat      |    $1 |
 
 ## Images
-![bild](../assets/img/test.jpg){:.ioda}
+![bild](../assets/img/test.jpg){:.ioda} # invert colours for auto dark/white mode
 
 ![theme logo](https://raw.githubusercontent.com/riggraz/no-style-please/master/logo.png){:.ioda}
 
