@@ -8,6 +8,7 @@ title: Links
 ## Table of contents
 - [Privacy](#Privacy)
 - [Linux and Open Source](#Linux and Open Source)
+
 ## [Privacy](#Privacy)
 - [Privacy Tools](https://www.privacytools.io/)
 - [Have I Been Pwned?](https://haveibeenpwned.com/) Check if your email or phone is in a data breach.
