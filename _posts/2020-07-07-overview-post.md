@@ -59,6 +59,8 @@ console.log(ultimateTruth);
 
 And here is some `inline code`!
 
+<img src="../assets/img/test.jpg"/>
+
 ## Tables
 
 Now a table:
