@@ -1,4 +1,4 @@
+<img src="../assets/img/test.jpg"/>
 ---
 layout: home
 ---
-<img src="../assets/img/test.jpg"/>
