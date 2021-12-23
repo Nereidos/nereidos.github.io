@@ -54,3 +54,6 @@ Cron special keywords and its meaning
 ## Useful Links and Sources
 - [https://crontab.guru/](https://crontab.guru/)
 - [https://www.tutorialspoint.com/unix_commands/crontab.htm](https://www.tutorialspoint.com/unix_commands/crontab.htm)
+
+---
+{: data-content="Elias"}
