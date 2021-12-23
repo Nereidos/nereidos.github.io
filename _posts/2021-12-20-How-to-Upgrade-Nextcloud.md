@@ -55,3 +55,6 @@ sudo -u www-data php /var/www/nextcloud/occ app:list
 sudo -u <www-data> php /var/www/<nextcloud>/occ maintenance:mode --off
 ```
 - Check for error's in Nextcloud Web Overview
+
+---
+{: data-content="Elias"}
