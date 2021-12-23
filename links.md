@@ -17,3 +17,6 @@ permalink: /links
 ## [Linux and Open Source](#Linux and Open Source)
 - [It's FOSS](https://itsfoss.com/) is an award-winning web-portal that focuses on Open Source in general and Linux in particular.
 - [Linuxnews.de](https://linuxnews.de/) Great linux news portal in german.
+
+---
+{: data-content="Elias"}
