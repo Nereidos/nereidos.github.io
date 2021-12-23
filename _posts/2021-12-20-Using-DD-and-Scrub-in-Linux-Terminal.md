@@ -129,3 +129,6 @@ Here you will find everything you need to proceed: [[Create Partition and Format
 - [https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/](https://unix.cafe/wp/en/2020/07/securely-remove-files-using-scrub-tool/)
 ### Lsblk
 - [https://linoxide.com/lsblk-command-in-linux-list-block-devices/](https://linoxide.com/lsblk-command-in-linux-list-block-devices/)
+
+---
+{: data-content="Elias"}
