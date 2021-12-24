@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-> Wellcome! This is my personal website.
+> Welcome! This is my personal website.
 
 
 - My name is Elias
