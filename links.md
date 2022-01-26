@@ -11,7 +11,7 @@ permalink: /links
 - [Linux and Open Source](#Linux and Open Source)
 
 ## [Privacy](#Privacy)
-- [Privacy Tools](https://www.privacytools.io/)
+- [Privacy Tools](https://www.privacytools.io/) Learn how to fight mass surveillance with enryption and privacy tools.
 - [Have I Been Pwned?](https://haveibeenpwned.com/) Check if your email or phone is in a data breach.
 
 ## [Linux and Open Source](#Linux and Open Source)
