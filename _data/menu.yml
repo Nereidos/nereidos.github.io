@@ -10,6 +10,8 @@ entries:
         url: https://github.com/skamandrios
       - title: My Photo Gallery
         url: gallery
+      - title: Methone Cloud
+        url: https://cloud.methone.ch
 
   - title: latest guides
     post_list:
