@@ -45,16 +45,17 @@ category: Database Guides
 ```
 ## [Show content in Tables](#Show content in Tables)
 - show content
-```show content
+
+- show content
+
+```
  SELECT * FROM Users;
-- show chracktertype
- desc Users;
- SELECT * FROM Users;
 ```
 - show chracktertype
 ```
  desc Users;
 ```
+
 ## [Insert into Table](#Insert into Table)
 - Insert to all
 ```
