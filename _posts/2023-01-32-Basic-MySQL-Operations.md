@@ -2,6 +2,7 @@
 layout: post
 category: Database Guides
 ---
+
 # MySQL Operations and Commands
 
 > Some mysql commands (still in progress...)
