@@ -17,7 +17,7 @@ category: Database Guides
 - [Search in Table](#Search in Table)
 
 ## [SHOW and USE DB](#SHOW and USE DB)
--Show all databases
+- Show all databases
 ```
  SHOW DATABASES;
 ```
