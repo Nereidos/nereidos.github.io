@@ -9,15 +9,15 @@ category: Linux Guides
 
 
 ## Table of contents
-- [SHOW and USE DB](#SHOW-and-USE-DB)
-- [Create database and tables](#Create-database-and-tables)
-- [Show content in Tables](#Show-content-in-Tables)
-- [Insert into Table](#Insert-into-Table)
-- [Update Table](#Update-Table)
-- [ADD COLUMN](#ADD-COLUMN)
-- [Search in Table](#Search-in-Table)
+- [SHOW and USE DB](#show-and-use-db)
+- [Create database and tables](#create-database-and-tables)
+- [Show content in Tables](#show-content-in-tables)
+- [Insert into Table](#insert-into-table)
+- [Update Table](#update-table)
+- [ADD COLUMN](#add-column)
+- [Search in Table](#search-in-table)
 
-## [SHOW and USE DB](#SHOW-and-USE-DB)
+## [SHOW and USE DB](#show-and-use-db)
 - Show all databases
 
 ```
@@ -35,7 +35,7 @@ category: Linux Guides
  show tables;
 ```
 
-## [Create database and tables](#Create-database-and-tables)
+## [Create database and tables](#create-database-and-tables)
 - create database
 
 ```
@@ -47,14 +47,21 @@ category: Linux Guides
 ``` 
  CREATE TABLE Users ( Username varchar(255), Firstname varchar(255),Lastname varchar(255) Age int, Country varchar(255), Active BOOLEAN );
 ```
-
 - Create tabel with ID with an auto-increment
 
 ```
- CREATE TABLE Users2 (ID INT AUTO_INCREMENT PRIMARY KEY, Username varchar(255), Firstname varchar(255),Lastname varchar(255), Age int, Country varchar(255), Active BOOLEAN );
+CREATE TABLE Users2 (
+ ID INT AUTO_INCREMENT PRIMARY KEY, 
+ Username  varchar(255) NOT NULL,,
+ Firstname varchar(255) NOT NULL,,
+ Lastname  varchar(255) NOT NULL,, 
+ Age       int          NOT NULL, 
+ Country   varchar(255) NOT NULL,, 
+ Active    BOOLEAN 
+);
 ```
 
-## [Show content in Tables](#Show-content-in-Tables)
+## [Show content in Tables](#show-content-in-tables)
 
 - show content
 
@@ -68,7 +75,7 @@ category: Linux Guides
  desc Users;
 ```
 
-## [Insert into Table](#Insert-into-Table)
+## [Insert into Table](#insert-into-table)
 - Insert to all
 
 ```
@@ -87,7 +94,7 @@ category: Linux Guides
  INSERT INTO Users(Username,Firstname,Lastname,Age,Country,Active) VALUES('klaus.wolf','klaus','wolf','22','DE','t');
 ```
 
-## [Update Table](#Update-Table)
+## [Update Table](#update-table)
 - Update All
 
 ```
@@ -118,7 +125,7 @@ ALTER TABLE Users CHANGE Active Active varchar(255) ;
 Alter Table Users Modify column Active BOOLEAN default false;
 ```
 
-[ADD COLUMN](#ADD-COLUMN)
+[ADD COLUMN](#add-column)
 - Add columns
 
 ```
@@ -130,7 +137,7 @@ ALTER TABLE Users ADD COLUMN ALTER TABLE table
 ALTER TABLE Users ADD COLUMN Lastname Varchar(255) AFTER Firstname;
 ```
 
-[Search in Table](#Search-in-Table)
+[Search in Table](#search-in-table)
 
 - Where statement
 ```
