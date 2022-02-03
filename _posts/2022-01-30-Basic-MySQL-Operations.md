@@ -122,70 +122,70 @@ ALTER TABLE Users CHANGE Active Active varchar(255) ;
 - Update datetype with default value
 
 ```
-Alter Table Users Modify column Active BOOLEAN default false;
+ Alter Table Users Modify column Active BOOLEAN default false;
 ```
 
 [ADD COLUMN](#add-column)
 - Add columns
 
 ```
-ALTER TABLE Users ADD COLUMN ALTER TABLE table
+ ALTER TABLE Users ADD COLUMN ALTER TABLE table
 ```
 - Add Column on specific place
 
 ```
-ALTER TABLE Users ADD COLUMN Lastname Varchar(255) AFTER Firstname;
+ ALTER TABLE Users ADD COLUMN Lastname Varchar(255) AFTER Firstname;
 ```
 
 [Search in Table](#search-in-table)
 
 - Where statement
 ```
-select * from records where name 'konsumenten';
+ select * from records where name 'konsumenten';
 ```
 - Like statement
 ```
-select * from records where name like '%konsumenten%';
+ select * from records where name like '%konsumenten%';
 ```
 - Select all the different values from the Age column in the Users table.
 ```
-select DISTINCT Age from Users;
+ select DISTINCT Age from Users;
 ```
 - Select all records from the Users table, sort the result alphabetically by the column name.
 ```
-SELECT * FROM Users ORDER BY name;
+ SELECT * FROM Users ORDER BY name;
 ```
 - Select all records from the Users table, sort the result reversed alphabetically by the column name.
 ```
-SELECT * FROM Users ORDER BY name DESC;
+ SELECT * FROM Users ORDER BY name DESC;
 ```
 - Select all records from the Users table, sort the result alphabetically, first by the column name, then, by the column firstname.
 ```
-SELECT * FROM Users ORDER BY name, firstname;
+ SELECT * FROM Users ORDER BY name, firstname;
 ```
 - Select all records where the value of the name column starts with the letter "a".
 ```
-SELECT * FROM Users WHERE name LIKE 'a%';
+ SELECT * FROM Users WHERE name LIKE 'a%';
 ```                                        
 - At the Ending
 ```
-SELECT * FROM Users WHERE name LIKE '%a';										
+ SELECT * FROM Users WHERE name LIKE '%a';										
 ```
 - Column contains the letter "a".
 ```
-SELECT * FROM Users WHERE name LIKE '%a%';
+ SELECT * FROM Users WHERE name LIKE '%a%';
 ```
 - Column starts with letter "a" and ends with the letter "b".
 ```
-SELECT * FROM Users WHERE name LIKE 'a%b'
+ SELECT * FROM Users WHERE name LIKE 'a%b'
 ```
 - Column does NOT start with the letter "a".
 ```
-SELECT * FROM Users WHERE name NOT LIKE 'a%'
+ SELECT * FROM Users WHERE name NOT LIKE 'a%'
 ``` 									
 - The second letter of the name is an "a"
 ```
-SELECT * FROM Users WHERE name LIKE '_a%';
+ SELECT * FROM Users WHERE name LIKE '_a%';
 ```
 
 ---
