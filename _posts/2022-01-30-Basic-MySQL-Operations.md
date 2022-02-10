@@ -16,8 +16,8 @@ category: Linux Guides
 - [Update Table](#update-table)
 - [ADD COLUMN](#add-column)
 - [Search in Table](#search-in-table)
-- [Example Databases](#example-databases)
 - [Drop Statement](#drop-statement)
+- [Example Databases](#example-databases)
 
 ## [SHOW and USE DB](#show-and-use-db)
 - Show all databases
