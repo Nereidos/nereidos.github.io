@@ -54,6 +54,8 @@ CREATE TABLE table_name (
 );
 ```
 - Create table with PRIMARY KEY
+- 
+``` 
 CREATE TABLE table_name1 (
 idcolumn1 INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
 ...
@@ -79,7 +81,7 @@ PRIMARY KEY (column2, column3, column4),
 FOREIGN KEY (column2) REFERENCES table_name2 (idleser), 
 FOREIGN KEY (column3) REFERENCES table_name2 (idbuch) 
 );
-
+``` 
 
 ## [Show content in Tables](#show-content-in-tables)
 
@@ -104,8 +106,7 @@ FOREIGN KEY (column3) REFERENCES table_name2 (idbuch)
  INSERT INTO Users(Username) VALUES('max.muster');
  INSERT INTO Users(Username) VALUES('max.muster');
  INSERT INTO Users(Firstname) VALUES('max');
- INSERT INTO Users(Firstname) VALUES('max');
- 
+ INSERT INTO Users(Firstname) VALUES('max'); 
 ```
 
 - Insert into all columns
@@ -153,61 +154,76 @@ ALTER TABLE Users CHANGE Active Active varchar(255) ;
  ALTER TABLE Users ADD COLUMN ALTER TABLE table
 ```
 - Add Column on specific place
-- 
+
+
 ```
  ALTER TABLE Users ADD COLUMN Lastname Varchar(255) AFTER Firstname;
 ``` 
 
-[Search in Table](#search-in-table)
+## [Search in Table](#search-in-table)
 
 - Where statement
+
 ```
  select * from records where name 'konsumenten';
 ```
 - Like statement
+
 ```
  select * from records where name like '%konsumenten%';
 ```
+
 - Select all the different values from the Age column in the Users table.
+
 ```
  select DISTINCT Age from Users;
 ```
 - Select all records from the Users table, sort the result alphabetically by the column name.
+
 ```
  SELECT * FROM Users ORDER BY name;
 ```
 - Select all records from the Users table, sort the result reversed alphabetically by the column name.
+
 ```
  SELECT * FROM Users ORDER BY name DESC;
 ```
 - Select all records from the Users table, sort the result alphabetically, first by the column name, then, by the column firstname.
+
 ```
  SELECT * FROM Users ORDER BY name, firstname;
 ```
 - Select all records where the value of the name column starts with the letter "a".
+
 ```
  SELECT * FROM Users WHERE name LIKE 'a%';
 ```                                        
 - At the Ending
+
 ```
  SELECT * FROM Users WHERE name LIKE '%a';										
 ```
 - Column contains the letter "a".
+
 ```
  SELECT * FROM Users WHERE name LIKE '%a%';
 ```
 - Column starts with letter "a" and ends with the letter "b".
+
 ```
  SELECT * FROM Users WHERE name LIKE 'a%b'
 ```
 - Column does NOT start with the letter "a".
+
 ```
  SELECT * FROM Users WHERE name NOT LIKE 'a%'
 ``` 									
 - The second letter of the name is an "a"
+
 ```
  SELECT * FROM Users WHERE name LIKE '_a%';
 ```
+
 ## [Drop Statement](#drop-statement)
 
 - Drop Databases
@@ -229,6 +245,7 @@ ALTER TABLE Lieferant DROP Column1;
 CREATE DATABASE customer_contact;
 ```
 - Create Table with PRIMARY KEY
+
 ```
 CREATE TABLE tbl_person ( 
 PID INT AUTO_INCREMENT PRIMARY KEY NOT NULL, 
