@@ -16,6 +16,8 @@ category: Linux Guides
 - [Update Table](#update-table)
 - [ADD COLUMN](#add-column)
 - [Search in Table](#search-in-table)
+- [Example Databases](#example-databases)
+- [Drop Statement](#drop-statement)
 
 ## [SHOW and USE DB](#show-and-use-db)
 - Show all databases
@@ -41,25 +43,43 @@ category: Linux Guides
 ```
  create database testdb;
 ```
-
-- Create table named Users
-
-``` 
- CREATE TABLE Users ( Username varchar(255), Firstname varchar(255),Lastname varchar(255) Age int, Country varchar(255), Active BOOLEAN );
-```
-- Create tabel with ID with an auto-increment
+- Creating tables
 
 ```
-CREATE TABLE Users2 (
- ID INT AUTO_INCREMENT PRIMARY KEY, 
- Username  varchar(255) NOT NULL,,
- Firstname varchar(255) NOT NULL,,
- Lastname  varchar(255) NOT NULL,, 
- Age       int          NOT NULL, 
- Country   varchar(255) NOT NULL,, 
- Active    BOOLEAN 
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
 );
 ```
+- Create table with PRIMARY KEY
+CREATE TABLE table_name1 (
+idcolumn1 INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+...
+);
+``` 
+- Create Table with FOREIGN KEYS
+
+``` 
+CREATE TABLE table_name2 ( 
+fkColumn1 INT NOT NULL, 
+PRIMARY KEY (fkColumn1), 
+FOREIGN KEY (leser_idleser) REFERENCES table_name1 (idcolumn1),
+...
+);
+``` 
+- Create Table with multipe several FOREIGN KEYS
+``` 
+CREATE TABLE table_name3 ( 
+column2 INT NOT NULL, 
+column3 INT NOT NULL, 
+column4 DATE NOT NULL, 
+PRIMARY KEY (column2, column3, column4), 
+FOREIGN KEY (column2) REFERENCES table_name2 (idleser), 
+FOREIGN KEY (column3) REFERENCES table_name2 (idbuch) 
+);
+
 
 ## [Show content in Tables](#show-content-in-tables)
 
@@ -85,6 +105,7 @@ CREATE TABLE Users2 (
  INSERT INTO Users(Username) VALUES('max.muster');
  INSERT INTO Users(Firstname) VALUES('max');
  INSERT INTO Users(Firstname) VALUES('max');
+ 
 ```
 
 - Insert into all columns
@@ -125,17 +146,17 @@ ALTER TABLE Users CHANGE Active Active varchar(255) ;
  Alter Table Users Modify column Active BOOLEAN default false;
 ```
 
-[ADD COLUMN](#add-column)
+## [ADD COLUMN](#add-column)
 - Add columns
 
 ```
  ALTER TABLE Users ADD COLUMN ALTER TABLE table
 ```
 - Add Column on specific place
-
+- 
 ```
  ALTER TABLE Users ADD COLUMN Lastname Varchar(255) AFTER Firstname;
-```
+``` 
 
 [Search in Table](#search-in-table)
 
@@ -186,6 +207,62 @@ ALTER TABLE Users CHANGE Active Active varchar(255) ;
 - The second letter of the name is an "a"
 ```
  SELECT * FROM Users WHERE name LIKE '_a%';
+```
+## [Drop Statement](#drop-statement)
+
+- Drop Databases
+``` 
+DROP DATABASE databasename;
+``` 
+- Drop Tables
+``` 
+DROP TABLE table_name;
+``` 
+-  Drop Column
+``` 
+ALTER TABLE Lieferant DROP Column1;
+``` 
+## [Example Databases](#example-databases)
+
+- Example Database customer contact
+```
+CREATE DATABASE customer_contact;
+```
+- Create Table with PRIMARY KEY
+```
+CREATE TABLE tbl_person ( 
+PID INT AUTO_INCREMENT PRIMARY KEY NOT NULL, 
+name VARCHAR(50), 
+vname VARCHAR(50) 
+);
+```
+- Second Table
+```
+CREATE TABLE tbl_ort (
+OID INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+town VARCHAR(50),
+postcode CHAR(4)
+);
+```
+-  third Tables
+```
+CREATE TABLE tbl_adress_art (
+AAID INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+address_type VARCHAR(50)
+);
+```
+- Last Table with FOREIGN KEY
+```
+CREATE TABLE tbl_address (
+PID INT NOT NULL,
+AAID INT NOT NULL,
+address VARCHAR(50),
+OID INT NOT NULL,
+FOREIGN KEY (PID) REFERENCES tbl_person (PID),
+FOREIGN KEY (AAID) REFERENCES tbl_adress_art(AAID),
+FOREIGN KEY (OID) REFERENCES tbl_ort(OID),
+PRIMARY KEY (PID,AAID)
+);
 ```
 
 ---
