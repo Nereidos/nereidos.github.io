@@ -10,6 +10,8 @@ entries:
         url: https://github.com/skamandrios
       - title: My Cloud
         url: https://cloud.methone.ch
+      - title: What does Methone mean?
+        url: https://en.wikipedia.org/wiki/Methone_(moon)
 
   - title: latest guides
     post_list:
