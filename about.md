@@ -1,8 +1,20 @@
 ---
 layout: page
 title: About
+permalink: /about
 ---
 
-This is an example page!
+> Welcome! This is my personal website.
 
-It's very similar to a `post` layout, with the only difference that the publish date is not shown!
+
+- My name is Elias
+- You will find me on Twitter <a href='https://twitter.com/_serELLE'> @_serELLE</a>
+- and on Github <a href='https://github.com/skamandrios'> @skamandrios</a>
+- the theme I am using is: no style, please! [https://github.com/riggraz/no-style-please](https://github.com/riggraz/no-style-please)
+
+
+
+
+
+---
+{: data-content="Elias"}

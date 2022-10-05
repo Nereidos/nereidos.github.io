@@ -1,32 +1,26 @@
-# For documentation on this file, see:
-# https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
   - title: info
     entries:
       - title: About 
         url: about
-      - title: Hello my name is Elias.
+      - title: Links
+        url: links 
       - title: MY Github
         url: https://github.com/skamandrios
-      - title: "also follow me on Twitter <a href='https://twitter.com/_serELLE'>@_serELLE</a> and Instagram<a href='https://instagram/59_Elias_'> @59_Elias_</a>"
+      - title: My Cloud
+        url: https://cloud.methone.ch
+      - title: What does Methone mean?
+        url: https://en.wikipedia.org/wiki/Methone_(moon)
 
-  - title: other stuff
+  - title: latest guides
     post_list:
       limit: 3
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
-
-  - title: posts by category
+  
+  - title: Nextcloud guides
     post_list:
-      category: example2
+      category: Nextcloud Guides
       show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
-
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
